@@ -68,19 +68,39 @@ footer {
     background-color: var(--color-background);
     padding: 20px;
     border-color: var(--color-gray);
-
+    border-style: solid;
 }
 
 header {
     text-align: center;
-    border-bottom: 1px solid;
+    border-bottom-width: 1px;
+
 }
 
 footer {
     text-align: center;
-    border-top: 1px solid;
+    border-top-width: 1px;
 }
 
 main {
     flex: 1;
+    padding: 1rem;
+}
+
+/* post cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.img-thumbnail-wrapper img {
+    width: 100%;
+    display: inline-block;
 }
