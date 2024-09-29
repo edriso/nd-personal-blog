@@ -1,0 +1,23 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    flex: 1;
+    min-width: 200px;
+}
+
+.card-link {
+    display: flex;
+}
+
+.card-link img {
+    width: 100%;
+    display: inline-block;
+}
+
+.card > .flex {
+    padding: 0 0.5rem;
+}
