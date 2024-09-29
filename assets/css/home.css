@@ -1,16 +1,28 @@
 .cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1rem;
 }
 
+.cards h2 {
+    font-size: 1rem;
+}
+
 .card {
-    flex: 1;
-    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+}
+
+.card:hover h2 {
+    color: var(--color-primary);
 }
 
 .card-link {
-    display: flex;
+    display: block;
+    pointer-events: auto;
 }
 
 .card-link img {
@@ -19,5 +31,5 @@
 }
 
 .card > .flex {
-    padding: 0 0.5rem;
+    padding: 0.5rem 0.5rem 0.75rem;
 }
