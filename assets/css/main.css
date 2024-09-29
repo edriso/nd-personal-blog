@@ -106,8 +106,29 @@ footer {
 }
 
 main {
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    padding: 2rem 1.5rem;
+    /* should i use 'rem' or 'px' for width attr? */
+    /* max-width: 50rem; */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .main {
+        padding: 1.5rem;
+    }
 }

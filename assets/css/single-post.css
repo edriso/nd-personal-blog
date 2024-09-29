@@ -1,0 +1,20 @@
+.post-content h2 {
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+}
+
+.post-thumbnail {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-body p {
+    line-height: 1.75;
+}
+
+.post-body p:not(:last-child) {
+    margin-bottom: 1.25rem;
+}
