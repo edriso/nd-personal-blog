@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     color: var(--color-link);
@@ -63,6 +67,10 @@ a:hover {
 
 .justify-between {
     justify-content: space-between;
+}
+
+.gap-sm {
+    gap: .5rem;
 }
 
 .text-sm {
