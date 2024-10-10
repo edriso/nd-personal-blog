@@ -24,3 +24,30 @@ figcaption {
 .post-body p:not(:last-child) {
     margin-bottom: 1.25rem;
 }
+
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+    font-size: 24px;
+}
+
+.like-btn svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--color-heart);
+    transition: fill 0.3s ease-in-out;
+}
+
+.like-btn.liked svg {
+    fill: var(--color-heart-liked);
+}
+
+.like-btn:hover {
+    transform: scale(1.1);
+}
