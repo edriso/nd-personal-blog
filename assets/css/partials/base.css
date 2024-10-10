@@ -21,6 +21,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    color: var(--color-heading);
 }
 
 ul {
@@ -37,7 +38,12 @@ a:hover {
     color: var(--color-link-hover);
 }
 
-.primary-link {
+p a:hover {
+    text-decoration: underline;
+}
+
+.primary-link,
+.primary-link > * {
     color: var(--color-primary);
 }
 
@@ -111,6 +117,14 @@ img {
     height: auto;
     width: 100%;
     background-size: cover;
+}
+
+blockquote {
+    font-style: italic;
+    color: var(--color-gray-darker, #696969);
+    border-left: 0.25rem solid var(--color-gray, #ccc);
+    padding-left: 1rem;
+    margin: 1rem 0;
 }
 
 @media (max-width: 768px) {

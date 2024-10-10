@@ -1,6 +1,7 @@
 :root {
     --font-family: "Merriweather", serif;
     --line-height: 1.5;
+    --color-heading: #000000;
     --color-text: #2b2b2b;
     --color-background: #ddd;
     --color-background-lighter: #f0f0f0;
