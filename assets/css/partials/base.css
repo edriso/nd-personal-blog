@@ -28,13 +28,15 @@ ul {
     list-style: none;
 }
 
-a {
+a,
+.primary-link > * {
     text-decoration: none;
     color: var(--color-link);
     transition: color 250ms ease;
 }
 
-a:hover {
+a:hover,
+.primary-link:hover > * {
     color: var(--color-link-hover);
 }
 

@@ -1,5 +1,11 @@
 @import "./layout.css";
 
+.img-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 .post-content h2 {
     margin-bottom: 0.5rem;
 }
